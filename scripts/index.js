@@ -1,1 +1,1 @@
-import('./popup.js')
+import('../blocks/popup/popup.js')
