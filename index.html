@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Колосков Сергей">
+  <meta name="description" content="Сайт о местах России">
+  <meta name="keywords" content="Места России">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Места России</title>
+</head>
+<body class="root js-root">
+  <div class="page">
+    <header class="header">
+      <a class="header__link" href="#">
+        <img class="header__logo" src="./images/header/__logo/header__logo.svg" alt="Логотип">
+      </a>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="images/profile/__avatar/profile__avatar.jpg" alt="Аватар">
+        <div class="profile__info">
+          <div class="profile__itemWrapper">
+            <h1 class="profile__title">Винни Пу</h1>
+            <button class="profile__textEditBtn js-profile__textEditBtn" type="button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь ульев</p>
+        </div>
+        <button class="profile__addBtn" type="button"></button>
+      </section>
+      <section class="imageCards" aria-label="Карточки">
+        <ul class="imageCards__items">
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/redOctober.jpg" alt="Кондитерская фабрика Красный Октябрь">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="К\Ф Красный октябрь">К\Ф"Красный октябрь"</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/Belev.jpg" alt="город Белёв">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="Белёв">Белёв</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/Babaevski.jpg" alt="Концерн Бабаевский">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="Концерн Бабаевский">Концерн "Бабаевский"</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/Tula.jpg" alt="город Тула">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="Тула">Тула</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/Kolomna.jpg" alt="город Коломна">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="Коломна">Коломна</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+          <li class="imageCards__item">
+            <img class="imageCards__picture" src="./images/imageCards/__item/Sormovo.jpg" alt="Сормовская кондитерская фабрика">
+            <div class="imageCards__label">
+              <h2 class="imageCards__title" data-title="Сормовская К/Ф">Сормовская К/Ф</h2>
+              <button class="imageCards__like"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2021 Mesto Russia</p>
+    </footer>
+    <div class="popup js-popup">
+      <div class="popup__container">
+        <form class="popup__form js-popup__form" name="editForm">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input class="popup__input js-popup__inputName" type="text" placeholder="Имя">
+          <input class="popup__input js-popup__inputJob" type="text" placeholder="Профессия">
+          <button class="popup__submitBtn" type="submit">Сохранить</button>
+        </form>
+        <button class="popup__closeForm js-popup__closeForm" type="button"></button>
+      </div>
+    </div>
+  </div>
+ <script src="./pages/index.js"></script>
+</body>
+</html>
