@@ -1,0 +1,20 @@
+.profile__text-edit-btn {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/profile/__text-edit-btn/profile__text-edit-btn.svg) no-repeat center;
+  background-size: contain;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.profile__text-edit-btn:hover {
+  opacity: .6;
+}
+@media screen and (max-width: 768px) {
+  .profile__text-edit-btn {
+    width: 18px;
+    height: 18px;
+  }
+}
